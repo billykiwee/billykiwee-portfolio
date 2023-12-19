@@ -1,0 +1,17 @@
+.block {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: start;
+  gap: 28px;
+  border-radius: 22px;
+  border: 1px solid #ffffff0d;
+  background: #ffffff0d;
+  width: 100%;
+  overflow: hidden;
+
+  label {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

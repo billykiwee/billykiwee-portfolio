@@ -1,0 +1,53 @@
+.experience {
+  display: grid;
+  gap: 18px;
+
+  header {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+
+    .logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 48px;
+        height: 48px;
+      }
+    }
+
+    .heading {
+      display: grid;
+      grid: 18px;
+
+      label {
+        font-size: 20px;
+      }
+
+      .heading-type {
+        color: var(--blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+
+        img {
+          width: 26px;
+          height: 26px;
+        }
+      }
+
+      .info {
+        display: flex;
+        column-gap: 24px;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

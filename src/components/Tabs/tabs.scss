@@ -1,0 +1,63 @@
+.editor {
+  width: 100%;
+  display: grid;
+
+  header {
+    display: grid;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.0509803922);
+
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .main {
+    display: flex;
+    .left {
+      .tabs {
+        display: grid;
+        width: 20%;
+      }
+
+      li {
+        &:hover {
+          background-color: #e0eeff09;
+        }
+        display: grid;
+        cursor: pointer;
+
+        border-right: 1px solid rgba(255, 255, 255, 0.0509803922);
+
+        .heading {
+          padding: 12px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+
+          img {
+            width: 20px;
+            height: 20px;
+          }
+
+          span {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    .right {
+      width: 100%;
+    }
+  }
+}
+
+.folder {
+  display: flex;
+  gap: 8px;
+  padding: 16px 20px;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
